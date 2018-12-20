@@ -219,6 +219,7 @@ form .error input, form .error textarea {
     background: url(../img/bg-2.png) no-repeat;
     background-size: 70% auto;
     background-position: right;
+    padding-bottom: 50px;
 }
 /***  Message Board  ***/
 
