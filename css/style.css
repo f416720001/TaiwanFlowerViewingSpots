@@ -39,6 +39,41 @@ ul a {
 }
 /*** header  ***/
 
+/*** guide  ***/
+.guide {
+    height: 100vh;
+    background: url(../img/guide-bg.png) no-repeat;
+    background-size: 100% auto;
+}
+.guide #logo {
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.guide .subtitle {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 400px;
+    width: 1200px;
+    text-align: center;
+}
+.guide #enter {
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/*** guide  ***/
+
 /*** top  ***/
 #top {
     background: url(../img/bg-1.png) no-repeat;
@@ -273,7 +308,7 @@ header::after, footer::after {
 
 header ul {
     padding: 0px;
-    margin-left: 5vw;
+    margin: 15px auto;
 }
 
 header ul li {
