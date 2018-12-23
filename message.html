@@ -6,16 +6,17 @@
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
   <header>
     <nav>
-      <ul>
+      <ul class="animated fadeInDown">
         <li><a href="#">關於我們<span>About</span></a></li>
         <li><a href="#">地區花期<span>Region</span></a></li>
         <li><a href="#"><img src="img/logo.png" alt="logo" class="left" id="logo"></a></li>
@@ -24,8 +25,8 @@
       </ul>
     </nav>
   </header>
-  <section id="top">
-    <div class="remind">
+  <section id="top" class="animated fadeIn delay-1s">
+    <div class="remind animated fadeIn delay-1s">
       <h1>訪客留言</h1>
       <p>各位訪客您好:</p>
       <p>1. 本留言板為訪客意見交流使用，如有謾罵、汙衊、造謠、廣告等文章一律刪除</p>
@@ -34,14 +35,14 @@
       <p>4. 請勿在留言板處理訂房、退房、訂金等訂單相關事宜</p>
     </div>
   </section>
-  <div class="message">
+  <div class="message animated fadeInUp delay-1s">
     <table class="table-fill">
       <thead>
         <tr>
-          <th class="text-center">發表人</th>
-          <th class="text-center">留言</th>
-          <th class="text-center">發表日期</th>
-          <th class="text-center">回應</th>
+          <th class="text-center" width="15%">發表人</th>
+          <th class="text-center" width="52%">留言</th>
+          <th class="text-center" width="13%">發表日期</th>
+          <th class="text-center" width="10%">回應</th>
         </tr>
       </thead>
       <tbody class="table-hover">
@@ -49,52 +50,66 @@
           <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
           <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
           <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
+          <td class="text-center">23</td>
         </tr>
         <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
-        </tr>        <tr>
-          <td class="text-center"><img src="img/member.png" alt="member"><span>Ann</span></td>
-          <td class="text-left">1月到訪武陵農場，櫻花還未開，但楓葉很紅很美麗</td>
-          <td class="text-center">2019-01-19</td>
-          <td class="text-center">3</td>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Emma Waston</span></td>
+          <td class="text-left">請問這週能去哪裡賞花呢?想帶孩子去走走</td>
+          <td class="text-center">2019-01-08</td>
+          <td class="text-center">736</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>James Harden</span></td>
+          <td class="text-left">武陵農場能帶寵物進去嗎?從彰化開車前往大約幾小時呢?</td>
+          <td class="text-center">2018-11-29</td>
+          <td class="text-center">9</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Peter Pan</span></td>
+          <td class="text-left">假日一起揪去看新社花海吧!</td>
+          <td class="text-center">2018-11-22</td>
+          <td class="text-center">17</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Lily Potter</span></td>
+          <td class="text-left">這陣子的芒花很美，秋意濃阿</td>
+          <td class="text-center">2018-11-09</td>
+          <td class="text-center">23</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Sam</span></td>
+          <td class="text-left">東部金針花目前花況都已盛開，建議清晨來，邊吃早點邊看太陽升起，整座山黃澄澄，絕對殺底片!</td>
+          <td class="text-center">2018-09-19</td>
+          <td class="text-center">1,963</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Taylor Swift</span></td>
+          <td class="text-left">請問六十石山目前金針花況如何呢?交通路線建議怎麼走?第一次去，怕迷路了!</td>
+          <td class="text-center">2018-07-03</td>
+          <td class="text-center">183</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Henry</span></td>
+          <td class="text-left">今天和朋友去台南參加蓮花季，蓮子大餐太好吃，有人也愛蓮子嗎?</td>
+          <td class="text-center">2018-06-23</td>
+          <td class="text-center">63</td>
+        </tr>        
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Martin</span></td>
+          <td class="text-left">又到繡球花開的季節了，今年的花期比去年晚了一點，陽明山此時此刻正是繡球花開好開滿的時候喔!</td>
+          <td class="text-center">2018-05-26</td>
+          <td class="text-center">230</td>
+        </tr>
+        <tr>
+          <td class="text-center"><img src="img/member.png" alt="member"><span>Andy</span></td>
+          <td class="text-left">有人推薦在苗栗賞完桐花後可以去哪裡走走嗎?</td>
+          <td class="text-center">2018-04-07</td>
+          <td class="text-center">107</td>
         </tr>
       </tbody>
     </table>
-    <div class="right" style="padding:15px;">上一頁  下一頁</div>
+    <div class="right" style="padding:15px;"><a href="#" style="color:black;">下一頁</a></div>
+    <div class="right" style="padding:15px;"><a href="#" style="color:black;">上一頁</a></div>
   </div>
   <div class="message-input">
     <form>
