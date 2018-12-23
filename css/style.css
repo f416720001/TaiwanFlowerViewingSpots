@@ -43,13 +43,13 @@ ul a {
 .guide {
     height: 100vh;
     background: url(../img/guide-bg.png) no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 .guide #logo {
     width: 500px;
     margin: auto;
     position: absolute;
-    top: -100px;
+    top: -10vw;
     left: 0;
     right: 0;
     bottom: 0;
@@ -59,7 +59,7 @@ ul a {
     font-weight: bold;
     font-size: 18px;
     position: absolute;
-    top: 400px;
+    top: 30vw;
     width: 1200px;
     text-align: center;
 }
