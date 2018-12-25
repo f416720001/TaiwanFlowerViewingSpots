@@ -756,7 +756,6 @@ main img {
 #lod-bg {
 	background-image: url(../img/lodging/back-01.jpg);
 	background-repeat: no-repeat;
-	background-position-y: -300px;
 	position: relative;
     z-index: -1;
 }
@@ -909,7 +908,13 @@ main img {
 }
 /*** lodging ***/
 
-/*** north ***/
+/*** region ***/
+#region-bg {
+	background-image: url(../img/region-back-01.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+    z-index: -1;
+}
 #bigphoto{
 	width:1200px;
 	height:550px;
@@ -919,15 +924,19 @@ main img {
 
 #content01{
 	width:1200px;
-	height:100px;
+	height:146px;
 	margin-right: auto;
 	margin-left: auto;
 	}
 	
-	.content{
-	margin-top: 50px;
+.content{
 	margin-left: 40px;
-	}
+}
+
+.content h1 {
+	margin: 0px;
+	padding-top: 50px;
+}
 
 #content02{ 
     width:1200px;
