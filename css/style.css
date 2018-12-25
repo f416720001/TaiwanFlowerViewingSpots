@@ -22,6 +22,58 @@ body {
 a:hover {
     text-decoration: none;
 }
+/*** menu ***/
+#primary_nav_wrap {
+	margin-top:15px
+}
+
+#primary_nav_wrap ul {
+	list-style:none;
+	position:relative;
+	margin:0;
+	padding:0
+}
+
+
+
+#primary_nav_wrap ul li{
+	position:relative;
+}
+
+#primary_nav_wrap ul ul
+{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: -100%;
+	background: #fff;
+	padding: 0;
+	padding-top: 20px;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float: none;
+	width: 150px;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height: 120%;
+	padding: 10px 15px;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+/*** menu ***/
 
 /*** header  ***/
 header {
@@ -697,7 +749,6 @@ main img {
 	height: 140px;
 	width: 1200px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 	font-size: 16px;
 }
 
@@ -712,7 +763,6 @@ main img {
 	width: 400px;
 	float: left;
 	text-align: center;
-	font-family: CFangSongHK-Light;	
 }
 #d1r {
 	height: 450px;
@@ -739,7 +789,6 @@ main img {
 	height: 450px;
 	width: 400px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 
 #d25 {
@@ -755,7 +804,6 @@ main img {
 	height: 450px;
 	width: 400px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 #d3r {
 	float: right;
@@ -780,7 +828,6 @@ main img {
 	height: 450px;
 	width: 400px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 #more {
 	height: 160px;
@@ -825,27 +872,137 @@ main img {
 	height: 160px;
 	width: 300px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 #moretext2 {
 	float: left;
 	height: 160px;
 	width: 300px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 #moretext3 {
 	float: left;
 	height: 160px;
 	width: 300px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 #moretext4 {
 	float: left;
 	height: 160px;
 	width: 300px;
 	text-align: center;
-	font-family: CFangSongHK-Light;
 }
 /*** lodging ***/
+
+/*** north ***/
+#bigphoto{
+	width:1200px;
+	height:550px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+#content01{
+	width:1200px;
+	height:100px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+	.content{
+	margin-top: 50px;
+	margin-left: 40px;
+	}
+
+#content02{ 
+    width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+	
+	.cont{
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+
+#con01{
+	width:550px;
+	height:500px;
+	float:left;
+	}
+
+#con02{
+	width:650px;
+	height:500px;
+	float: right;
+	}
+	
+#p01{
+	width: 1200px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+	
+
+#con03{
+	width:600px;
+	height:400px;
+	float:left;
+	}
+
+#con04{
+	width:600px;
+	height:400px;
+	float:right;
+	}
+
+#p02{
+	width:1200px;
+	height:100px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+    }
+
+#con05{
+	width:650px;
+	height:400px;
+	float:left;
+      }
+
+#con06{
+	width:550px;
+	height:400px;
+	float:right;
+}
+
+#p03{
+	width:1200px;
+	height:100px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+    }
+	
+	#con07{
+	width:550px;
+	height:400px;
+	float:left;
+      }
+	
+	#con08{
+	width:650px;
+	height:400px;
+	float:right;
+    }
+	
+	#p04{
+	width:1200px;
+	height:100px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+    }
+	
+/*** north ***/
