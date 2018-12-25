@@ -474,6 +474,12 @@ main img {
 
 
 /*** about ***/
+#about-bg {
+	background-image: url(../img/about/about-bg.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+    z-index: -1;
+}
 #d0about {
 	height: 400px;
 	width: 1200px;
