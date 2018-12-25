@@ -408,7 +408,7 @@ main img {
 
 
 /*** about ***/
-#d0 {
+#d0about {
 	height: 400px;
 	width: 1200px;
 	text-align: center;
@@ -417,7 +417,7 @@ main img {
 
 
 
-#d1 {
+#d1about {
 	height: 200px;
 	width: 1200px;
 	text-align: center;
@@ -685,3 +685,167 @@ main img {
 	font-size: 24px;
 }	
 /*** about ***/
+
+/*** lodging ***/
+#lod-bg {
+	background-image: url(../img/lodging/back-01.jpg);
+	background-repeat: no-repeat;
+	background-position-y: -300px;
+}
+
+#d0lodging {
+	height: 140px;
+	width: 1200px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+	font-size: 16px;
+}
+
+
+
+#d1lodging {
+	height: 450px;
+	width: 1200px;
+}
+#d1l {
+	height: 450px;
+	width: 400px;
+	float: left;
+	text-align: center;
+	font-family: CFangSongHK-Light;	
+}
+#d1r {
+	height: 450px;
+	width: 800px;
+	float: right;
+}
+
+#d15 {
+	height: 100px;
+	width: 1200px;
+}
+
+#d2 {
+	height: 450px;
+	width: 1200px;
+}
+#d2l {
+	float: left;
+	height: 450px;
+	width: 800px;
+}
+#d2r {
+	float: right;
+	height: 450px;
+	width: 400px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+
+#d25 {
+	height: 100px;
+	width: 1200px;
+}
+#d3 {
+	height: 450px;
+	width: 1200px;
+}
+#d3l {
+	float: left;
+	height: 450px;
+	width: 400px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+#d3r {
+	float: right;
+	height: 450px;
+	width: 800px;
+}
+#d35 {
+	height: 100px;
+	width: 1200px;
+}
+#d4 {
+	height: 450px;
+	width: 1200px;
+}
+#d4l {
+	float: left;
+	height: 450px;
+	width: 800px;
+}
+#d4r {
+	float: right;
+	height: 450px;
+	width: 400px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+#more {
+	height: 160px;
+	width: 1200px;
+	text-align: center;
+}
+#moreimage {
+	height: 300px;
+	width: 1200px;
+}
+#moreimage1 {
+	float: left;
+	height: 300px;
+	width: 300px;
+}
+#moreimage2 {
+	float: left;
+	height: 300px;
+	width: 300px;
+}
+#moreimage2 {
+	float: left;
+	height: 300px;
+	width: 300px;
+}
+#moreimage3 {
+	float: left;
+	height: 300px;
+	width: 300px;
+}
+#moreimage4 {
+	float: left;
+	height: 300px;
+	width: 300px;
+}
+#moretext {
+	height: 160px;
+	width: 1200px;
+}
+#moretext1 {
+	float: left;
+	height: 160px;
+	width: 300px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+#moretext2 {
+	float: left;
+	height: 160px;
+	width: 300px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+#moretext3 {
+	float: left;
+	height: 160px;
+	width: 300px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+#moretext4 {
+	float: left;
+	height: 160px;
+	width: 300px;
+	text-align: center;
+	font-family: CFangSongHK-Light;
+}
+/*** lodging ***/
