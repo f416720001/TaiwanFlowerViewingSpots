@@ -264,9 +264,14 @@ form .error input, form .error textarea {
 /***  Message Board  ***/
 
 /***  Home  ***/
-.f-des {
+.bg-1 {
 	background: url(../img/bg-1.jpg) no-repeat;
     background-size: 100% auto;
+}
+.bg-2 {
+	background: url(../img/bg-2.jpg) no-repeat;
+    background-size: 100% auto;
+	background-position: right;
 }
 .f-des h1 {
 	margin: 0px;
@@ -395,12 +400,288 @@ main {
   padding: 40px;
 }
 
-main #product-box {
-
-}
-
 main img {
   display: inline-block;
   width: 132px;
   margin: 0 60px;
 }
+
+
+/*** about ***/
+#d0 {
+	height: 400px;
+	width: 1200px;
+	text-align: center;
+	font-size: 36px;
+}
+
+
+
+#d1 {
+	height: 200px;
+	width: 1200px;
+	text-align: center;
+	font-size: 36px;
+}
+
+#d01 {
+	width: 1200px;
+	height: 200px;
+	}
+
+#d02 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d03 {
+	width: 1200px;
+	height: 200px;
+	}	
+	
+#d04 {
+	width: 1200px;
+	height: 200px;
+	}	
+	
+#d05 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d06 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d07 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d08 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d09 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d10 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d11 {
+	width: 1200px;
+	height: 200px;
+	}
+	
+#d12 {
+	width: 1200px;
+	height: 200px;
+	}	
+#d0 {
+	height: 400px;
+	width: 1200px;
+	text-align: center;
+	font-size: 36px;
+}
+
+
+
+#d01l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d01r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+	
+	
+#d02l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d02r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+	
+#d03l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d03r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+	
+#d04l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d04r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+	
+#d05l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d05r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}	
+	
+#d06l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d06r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+	
+#d07l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d07r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+	
+#d08l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d08r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}	
+	
+#d09l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d09r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+
+#d10l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d10r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}	
+
+#d11l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d11r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}	
+	
+#d12l {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+#d12r {
+	float: right;
+	height: 150px;
+	width: 800px;
+	margin-right: 100px;
+	margin-top: 25px;
+	font-size: 24px;
+}	
+/*** about ***/
