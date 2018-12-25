@@ -326,18 +326,11 @@ form .error input, form .error textarea {
 /***  Message Board  ***/
 
 /***  Home  ***/
-.bg-1 {
-	background: url(../img/bg-1.jpg) no-repeat;
-    background-size: 100% auto;
+#home-bg {
+	background-image: url(../img/home-bg.jpg);
+	background-repeat: no-repeat;
 	position: relative;
-	z-index: -1;
-}
-.bg-2 {
-	background: url(../img/bg-2.jpg) no-repeat;
-    background-size: 100% auto;
-	background-position: right;
-	position: relative;
-	z-index: -1;
+    z-index: -1;
 }
 .f-des h1 {
 	margin: 0px;
