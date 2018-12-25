@@ -10,6 +10,10 @@
     font-family: FS,'·L³n¥¿¶ÂÅé', sans-serif;
 }
 
+footer, header {
+	position: relative; 
+}
+
 html {
     height: 100%;
 }
@@ -49,6 +53,7 @@ a:hover {
 	background: #fff;
 	padding: 0;
 	padding-top: 20px;
+	z-index:999;
 }
 
 #primary_nav_wrap ul ul li
@@ -78,6 +83,7 @@ a:hover {
 /*** header  ***/
 header {
     margin: 0px;
+	margin-bottom: 20px;
     text-align: center;
 }
 
@@ -130,6 +136,8 @@ ul a {
 #top {
     background: url(../img/bg-1.jpg) no-repeat;
     background-size: 100% auto;
+	position: relative;
+    z-index: -1;
 }
 
 .remind {
@@ -312,6 +320,8 @@ form .error input, form .error textarea {
     background-size: 70% auto;
     background-position: right;
     padding-bottom: 50px;
+	position: relative;
+    z-index: -1;
 }
 /***  Message Board  ***/
 
@@ -319,11 +329,15 @@ form .error input, form .error textarea {
 .bg-1 {
 	background: url(../img/bg-1.jpg) no-repeat;
     background-size: 100% auto;
+	position: relative;
+	z-index: -1;
 }
 .bg-2 {
 	background: url(../img/bg-2.jpg) no-repeat;
     background-size: 100% auto;
 	background-position: right;
+	position: relative;
+	z-index: -1;
 }
 .f-des h1 {
 	margin: 0px;
@@ -743,6 +757,8 @@ main img {
 	background-image: url(../img/lodging/back-01.jpg);
 	background-repeat: no-repeat;
 	background-position-y: -300px;
+	position: relative;
+    z-index: -1;
 }
 
 #d0lodging {
