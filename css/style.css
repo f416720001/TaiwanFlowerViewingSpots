@@ -288,6 +288,14 @@ form .error input, form .error textarea {
 .description img {
 	width: 100%;
 }
+.description h1 {
+	margin-top: 70px;
+	text-align: center;
+}
+.description h4 {
+	margin-left: 20px;
+	font-weight: 500;
+}
 .col-3 {
 	width: 40%;
 	float: left;
