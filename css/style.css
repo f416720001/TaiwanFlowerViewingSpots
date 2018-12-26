@@ -943,6 +943,9 @@ main img {
 	margin-right: auto;
 	margin-left: auto;
 }
+#content02 p {
+    font-size: 18px;
+}
 	
 	.cont{
 	margin-left: 50px;
