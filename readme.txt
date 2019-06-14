@@ -1,15 +1,17 @@
+https://f416720001.github.io/TaiwanFlowerViewingSpots/
+
 Folder
 -css
---style.css  ºô­¶±Æª©
---animate.css  ºô­¶css°Êµe
+--style.css  ç¶²é æ’ç‰ˆ
+--animate.css  ç¶²é csså‹•ç•«
 
 -fonts
---HuaWenFangSong.ttf  ¥é§ºÅé
+--HuaWenFangSong.ttf  ä»¿å®‹é«”
 
--img  ©Ò¦³ºô­¶¹Ï¤ù³£©ñ³o
+-img  æ‰€æœ‰ç¶²é åœ–ç‰‡éƒ½æ”¾é€™
 
--resource  ¦s©ñ³]­p¹Ï¤Î­ì¹Ï
+-resource  å­˜æ”¾è¨­è¨ˆåœ–åŠåŸåœ–
 
 
-guide.html  ¾É¤Ş­¶
-message.html  ¯d¨¥­¶
+guide.html  å°å¼•é 
+message.html  ç•™è¨€é 
